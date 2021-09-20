@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Denisia's Example Website</title>
+
+    <script>
+      ('Welcome to my example Website!');
+      
+      var myVariable = "here is a string"; /* a string */
+      var myOtherVariable = 1; //number
+      
+      var x =3;
+      var y =4;
+      var z =100;
+
+      //alert(y - x);
+      //alert( myOtherVariable + myOtherVariable);
+
+      var variableThree;
+
+      //myArray = ['chocolate', 'hershey', 'kitkats', 'WonderBall'];
+      //alert(myArray[1]);
+
+
+      /*
+
+      + add
+      - subtraction
+      / divide
+      * multiply
+      % modulus
+
+      == equal to
+      != not equal to
+      > greater than
+      < less than
+      >= greater than or equal to
+      <= less or equal to
+      && return true if both statements are equal to each other or are 
+      true
+      || return true if one statement is true
+      */
+
+
+      function myFirstfunction() {
+      	//sum = z * x - y;
+      	//alert(sum);
+      	document.getElementById('ExampleWebsite').innerHTML= 
+      	  "this is example text #1";
+      }
+
+
+      function mySecondfunction() {
+	document.getElementById('ExampleWebsite').innerHTML= "this is example text #2";
+      }
+
+    </script>
+
+    <style>
+    	.assesBox {
+    		background-color: #gray;
+
+    		header-color: #blue;
+    	   }
+        </style>
+
+  </head>
+
+  <body>
+
+    <h1>This is a Practice Website!</h1>
+    <p> Im not a coder, but I'm trying!</p>
+
+    <button onclick="myFirstfunction()">Button 1</button>
+    <button onclick="mySecondfunction()"> Button 2 </button>
+
+    <p></p>
+    <div class="assessBox" id="ExampleWebsite"> Here is a assess box, hope it works</div>
